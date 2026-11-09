@@ -1,0 +1,12 @@
+# keys and secrets - never commit
+*.pem
+*.key
+.env
+
+# recorded data and reports (large, grows daily)
+data/*
+!data/.gitkeep
+
+# python
+__pycache__/
+*.pyc
